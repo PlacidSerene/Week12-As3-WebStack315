@@ -10,8 +10,12 @@ function App() {
     <div className="App">
       <Router>
         <Main path="/" />
+<<<<<<< HEAD
         <Detail path="/:id" />
         <Update path="/:id/edit" />
+=======
+        <Detail path="product/:id" />
+>>>>>>> 9a095625767dc80d6a97a8dbfaba3222ea42401e
       </Router>
     </div>
   );
