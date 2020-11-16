@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Main path="/" />
-        <Detail path="/:id" />
+        <Detail path="product/:id" />
       </Router>
     </div>
   );
