@@ -8,8 +8,7 @@ export default (props) => {
       {props.products.map((product, idx) => {
         return (
           <p key={idx}>
-            {console.log({ idx })}
-            <Detail />
+            <Link to={"/product/" + product._id}>{product.title}</Link>
           </p>
         );
       })}
